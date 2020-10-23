@@ -1,11 +1,14 @@
 <template>
-  <p>Hello Vue3</p>
+  <page></page>
 </template>
 
 <script>
+import page from './component/page'
+
 export default {
   name: 'App',
   components: {
+    page
   }
 }
 </script>
